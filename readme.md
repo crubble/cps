@@ -21,15 +21,23 @@ Se tiverem só o python instalado corram isto:
 
 ### Usar o github
 
-Para usar o github há varias maneiras:
-- [git](https://git-scm.com/downloads) (no terminal)
-- [github desktop](https://desktop.github.com/)
-- [vscode](https://code.visualstudio.com) (não é preciso instalar nada)
+Instalar o [git](https://git-scm.com/downloads).
 
-Explicação de cada uma:
-- [git](https://learnxinyminutes.com/docs/git/)
-- [github desktop](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop)
-- [vscode](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git)
+Primeira vez:
+1. `git clone https://github.com/crubble/cps.git`
+1. `cd cps`
+1. `git config --global user.name "Your Name"`
+1. `git config --global user.email "you@example.com"`
+
+Vezes seguintes: `git pull`
+
+Para fazer alterações:
+1. `git add .`
+1. `git commit -m "_escrever mensagem aqui_"`
+1. `git push`
+
+Para ver o estado da coisa:
+`git status`
 
 ### Documentação das packages usadas
 
