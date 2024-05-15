@@ -14,7 +14,7 @@ Acho melhor usarmos [jupyter](https://jupyter.org/install) como em introdução 
 ### Instalar as packages usadas
 
 Se usarem anaconda corram isto no terminal:
-`conda install nympy phe gmpy2`
+`conda install numpy phe gmpy2`
 
 Se tiverem só o python instalado corram isto:
 `pip install numpy phe gmpy2`
